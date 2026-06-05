@@ -34,7 +34,7 @@ def _get_version() -> str:
             return importlib.metadata.version(distribution_name)
         except importlib.metadata.PackageNotFoundError:
             continue
-    return "0.1.2+unknown"
+    return "0.1.3+unknown"
 
 
 def main(argv: list[str] | None = None) -> int:
